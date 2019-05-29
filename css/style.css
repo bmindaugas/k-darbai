@@ -1,0 +1,187 @@
+/* viskas kas tinka viskam ir mobiliam */
+body {
+    background-color: #171A1D;
+}
+h1,
+h3,
+h4,
+h5,
+h6 {
+    color: #E3C68B;
+    text-align: center;
+}
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.border-custom {
+    border-image: url(../images/border5px.jpg) 5;
+}
+.border-top-custom {
+    border-top: 5px solid transparent;
+}
+.border-bottom-custom {
+    border-bottom: 5px solid transparent;
+}
+.bg-header-marmur-white {
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    height: 70px;
+}
+.logo-img {
+    max-width: 48px;
+}
+.logo-name {
+    max-width: 85px;
+    color: #101317;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 1px;
+    font-family: 'Roboto Slab', serif;
+}
+.bg-marmur-white {
+    background-image: url(../images/paslaugos_bg.jpg);
+    background-size: cover;
+}
+.galerija .galery-img {
+    width: 100%;
+}
+.galerija-font {
+    font-family: 'Roboto Slab', serif;
+    color: #e3c68b;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.paslaugos {
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+.paminklai {
+    color: #6f561f;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.2em;
+    font-family: 'Roboto Slab', serif;
+    line-height: 70%;
+}
+.tvorele {
+    color: #6f561f;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.2em;
+    font-family: 'Roboto Slab', serif;
+    line-height: 70%;
+}
+.didmena {
+    color: #6f561f;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.2em;
+    font-family: 'Roboto Slab', serif;
+    line-height: 70%;
+}
+.border-long {
+    border-image: url(../images/border-paslaugos-long.jpg) 5;
+    border-bottom: 1px solid transparent;
+    width: 115.2px;
+    margin-bottom: 4px;
+}
+.border-short {
+    border-image: url(../images/border-paslaugos-short.jpg) 5;
+    border-bottom: 1px solid transparent;
+    width: 69.6px;
+    margin-bottom: 44px;
+}
+.border-vertical {
+    border-image: url(../images/border-vertical-3px.jpg) 5;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+}
+.carousel-indicators li {
+        height: 7px;
+        width: 7px;
+        border-radius: 50%;
+        background-color: #b09f7d;
+}
+.navbar {
+    height: 74px;
+    background-image: url(../images/nav-background.png);
+}
+.nav-color {
+    color: #e3c68b;
+}
+.dropdown-color {
+    background-color: #e7decd;
+    color: #342506;
+}
+.dropdown-border {
+    border-bottom: solid #9e8055 1px;
+}
+.dropdown-menu {
+    border-radius: 0;
+    border: solid #9e8055 1px;
+}
+/* .akcija {
+    position: relative;
+} */
+@media (max-width: 991px) {
+    .border-vertical {
+        border: 0;
+    }
+    .carousel-indicators li {
+        height: 7px;
+        width: 7px;
+        border-radius: 50%;
+        background-color: #b09f7d;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .border-vertical {
+        border: 0;
+    }    
+    .carousel-indicators {
+        margin: 0;
+    }
+    .dropdown-menu {
+        width: min-content;
+    }
+    .navbar {
+    height: 100%;
+    }
+}
+/* .galerija .card {
+    width: 50%;
+    float: left;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { 
+    .galerija .card {
+        width: 50%;
+    }
+} */
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { 
+    .galerija .card {
+        width: 33%;
+    }
+} */
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { 
+    .galerija .card {
+        width: 25%;
+}
+} */
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { 
+    .galerija .card {
+        width: 20%;
+    }
+} */

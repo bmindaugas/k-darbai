@@ -1,0 +1,72 @@
+/* viskas kas tinka viskam ir mobiliam */
+body {
+    background-color: #171A1D;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #E3C68B;
+    text-align: center;
+}
+.border-custom {
+    border-image: url(../images/border5px.jpg) 5;
+}
+.border-top-custom {
+    border-top: 5px solid transparent;
+}
+.border-bottom-custom {
+    border-bottom: 5px solid transparent;
+}
+.bg-header-marmur-white {
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    height: 70px;
+}
+.logo-img {
+    max-width: 48px;
+}
+.logo-name {
+    max-width: 85px;
+}
+.bg-marmur-white {
+    background-image: url(../images/paslaugos_bg.jpg);
+    background-size: cover;
+}
+.galerija .galery-img {
+    width: 100%;
+}
+/* .galerija .card {
+    width: 50%;
+    float: left;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { 
+    .galerija .card {
+        width: 50%;
+    }
+} */
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { 
+    .galerija .card {
+        width: 33%;
+    }
+} */
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { 
+    .galerija .card {
+        width: 25%;
+}
+} */
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { 
+    .galerija .card {
+        width: 20%;
+    }
+} */
