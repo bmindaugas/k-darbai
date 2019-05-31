@@ -108,11 +108,12 @@ a:hover {
         background-color: #b09f7d;
 }
 .navbar {
-    height: 74px;
+    height: 79px;
     background-image: url(../images/nav-background.png);
 }
 .nav-color {
     color: #e3c68b;
+    font-family: 'Roboto Slab', serif;
 }
 .dropdown-color {
     background-color: #e7decd;
